@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.header {
+    margin: 10px 0;
+
+    height: 45px;
+
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.05em; 
+}
+
+.textarea {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    width: 940px;
+    height: 220px;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.keyboard {
+    position: absolute;
+    
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, 0%);
+    border-radius: 5px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.k_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 10px 5px;
+}
+
+.k_row_key {
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: #ffffff;
+
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(39, 39, 39);
+    
+}
+
+.k_row_key:link, .k_row_key:visited {
+    text-decoration: none;
+}
+
+.k_row_key:hover {
+    cursor: pointer;
+    color:#ffffff;
+    background-color: rgb(31, 31, 31);
+}
+
+.k_row_key:active {
+    cursor: pointer;
+    background-color: rgb(49, 49, 49);
+}
+
+.Backspace {
+    width: 130px;
+}
+
+.Tab {
+    width: 70px;
+}
+
+.Delete {
+    width: 60px;
+}
+
+.CapsLock {
+    width: 130px;
+}
+
+.Enter {
+    width: 110px;
+}
+
+.ShiftLeft {
+    width: 130px;
+}
+
+.ShiftRight {
+    width: 110px;
+}
+
+
+.Space {
+    width: 436px;
+}
+
+.description {
+    margin-top: 575px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.active {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
